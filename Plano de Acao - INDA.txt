@@ -1,0 +1,455 @@
+﻿
+Ministério do Planejamento, Orçamento e Gestão
+Secretaria de Logística e Tecnologia da Informação
+
+
+
+
+
+
+Plano de Ação  da Infraestrutura 
+Nacional de Dados Abertos
+
+
+
+
+
+
+
+
+
+
+Brasília
+2012
+
+
+
+
+
+
+
+
+
+
+
+Este documento foi elaborado pela
+
+DSI/SLTI
+
+Diretoria de Sistemas de Informação da Secretaria de Logística e Tecnologia da Informação
+
+
+
+
+
+Esta obra foi licenciado sob uma Licença 
+Creative Commons Atribuição-Compartilha Igual 3.0 Brasil.
+
+PREFÁCIO
+
+O Estado democrático brasileiro vem ao longo dos últimos anos fortalecendo práticas de transparência, e ampliação da eficiência dos processos públicos. As TICs tem desempenhado um papel fundamental nesse contexto pois suportam uma série de processos e provêm informações estratégicas para a tomada de decisão. Elas também potencializam e otimizam sistemas de informação que atendem demandas sociais. 
+A revolução da tecnologia da informação do Estado Brasileiro teve como marco inicial a modificação da forma como as áreas de TI são estruturadas e se comportam dentro das organizações. Se no passado, o conhecimento era distribuído entre as empresas que prestavam serviço à administração, hoje as áreas são geridas por servidores públicos seguindo modelos de contratação bem definidos, garantindo a continuidade do negócio e absorvendo o conhecimento dos sistemas para dentro dos órgãos públicos.
+Além desse investimento, considerado a base para que as áreas de TI pudessem se desenvolver, foram incorporadas ao governo novas idéias sobre a forma como o software e as informações deveriam ser utilizadas pelo estado. O Decreto 6.932, de 11 de agosto de 2009, trouxe diversas diretrizes importantes para melhorar a prestação de serviços ao cidadão: compartilhamento de informações entre órgãos públicos, inversão do ônus da prova para informações comprobatórias do cidadão e a carta de serviços ao cidadão. Dessa  iniciativa, nasceram os Padrões de Interoperabilidade de Governo Eletrônico (e-PING) que visam a utilização de padrões abertos para comunicação entre sistemas do estado.
+Seguindo o ritmo de inovação, a SLTI protagonizou a adoção de novos modelos de produção de conhecimento tecnológico. Tem conduzido outras iniciativas inovadoras como o portal Software Público Brasileiro (SPB), um espaço virtual que agrega um conjunto de softwares desenvolvidos nas áreas de saúde, educação, saneamento, gestão de TI, TV Digital e Geoprocessamento por orgãos públicos, empresas e universidades para serem compartilhadas por todos os usuários.
+A colaboração em rede aprimora o desenvolvimento dos programas e a troca de conhecimento na área de tecnologia da informação. Também gera oportunidade de negócios e contato entre pessoas que pretendem utilizar soluções informatizadas e aqueles que fornecem serviços. As soluções do Software Público consistem em comunidades específicas para cada software e contam com a participação de interessados da sociedade civil e de empresas públicas e privadas. Os benefícios obtidos com a melhoria das soluções são compartilhados com todos os envolvidos, economizando recursos e alimentando um ciclo virtuoso.
+	Agora, o governo brasileiro investe na liberdade da matéria prima para serviços mais inovadores criados pela sociedade e pelo próprio governo: a informação. A Lei 12.527, de 18 de novembro de 2011, ou Lei de Acesso à Informação, é a primeira do gênero no mundo a exigir, não apenas a chamada transparência passiva, isto é, a administração pública disponibilizar a informação quando provocado pelo cidadão, como também a transparência ativa na rede mundial de computadores. Isso significa que ela deve ser proativa, ao disponibilizar os dados públicos, na internet, em formatos abertos, estruturados e processáveis por máquina, ou seja, dados governamentais abertos.
+Perante o desafio, a Infraestrutura Nacional de Dados Abertos - INDA vem preencher esta lacuna e nortear de que forma a administração pública irá promover transparência ativa com dados abertos.
+
+
+Sumário
+Sobre o Documento 	7
+1. Introdução	9
+2. Conceitos	11
+2.1 Dados, informação e conhecimento	11
+2.2 Dados Governamentais Abertos	12
+3. Contextualização	14
+3.1. O marco legal da INDA	14
+3.2. Convergência de iniciativas	14
+4. Visão e objetivos	16
+5. Princípios e diretrizes	17
+6. Estruturas da INDA	19
+6.1. Estruturas Física e Lógica da INDA	19
+6.2 Estrutura organizacional da INDA	21
+GT 1 – Gestão e Normativo	21
+GT 2 – Informações disseminadas e boas práticas de publicação	21
+GT 3 – Tecnologia	22
+GT 4 – Metadados e padrões	22
+Comitê Gestor da INDA	22
+Comitê Operacional	23
+7. Catalogação no Portal Brasileiro de Dados Abertos	23
+8. Plano Institucional de abertura de dados	25
+8.1. Construindo um plano de adequação para abertura de dados	25
+9. Iniciativas	29
+10. Monitoramento e Controle	31
+Referências	32
+
+Sobre o Documento 
+
+Este documento visa atender a três finalidades principais:
+
+1. Auxiliar as organizações integrantes da INDA a cumprir a Lei de Acesso à Informação, no que se refere à transparência ativa pela publicação de dados governamentais abertos;
+2. Nortear os órgãos e entidades integrantes da INDA, quanto à visão, estratégia e política de abertura de dados na administração pública federal, nos anos de 2012 e 2013;
+3. Servir como base para criação de planos de publicação de dados abertos na INDA, conforme disposto no art 6º, VII, alínea c da Instrução Normativa 04 de 12 de abril de 2012.
+
+Sobre o primeiro aspecto, o Plano de Ação apresenta, no capítulo 3, os elementos necessários para a contextualização de uma organização sobre a INDA e seu funcionamento. O capítulo demonstra, ainda, o alinhamento com outras políticas públicas definidas, como com o Sistema de Administração dos Recursos de Tecnologia da Informação (SISP) e o Programa Brasileiro de Governo Eletrônico.
+
+O plano trata, no capítulo 5, de princípios que nortearão a disponibilização de dados das organizações públicas e que facilitarão, por consequência, a inovação, a agregação de valor, o cruzamento, o reúso e a redistribuição de dados por parte do próprio governo e da sociedade.
+
+As estruturas organizacionais, e as estruturas física e lógica da INDA, serão apresentadas no capítulo 6, em conjunto com o Portal Brasileiro de Dados Abertos. Explicando o funcionamento da infraestrutura nos aspectos negocial e técnico.
+
+O Portal Brasileiro de Dados Abertos, lançado por ocasião da Parceria para Governo Aberto, visa catalogar os dados disponibilizados pelo setor público do Brasil. O capítulo 7 trata da forma de catalogação no portal dos dados abertos disponibilizados pelas instituições participantes da infraestrutura.
+
+O planejamento em relação às ações de abertura de dados também precisa ser detalhado, no caso concreto das ações e metas referentes a cada instituição participante. Esse é o objetivo do Plano Institucional de Abertura de Dados, cujos equisitos mínimos e orientações para a sua elaboração serão apresentados no capítulo 8.
+
+O Plano de Ação também reúne as estratégias e metas estabelecidas para a INDA para seu próximo ciclo, permitindo o melhor alinhamento entre todos os participantes da infraestrutura. As iniciativas para o alcance dessas metas estão elencadas no capítulo 9.
+
+	Por fim, a forma de monitoramento das ações do Plano estão estabelecidas no capítulo 10.
+
+
+
+1. Introdução
+
+Os Dados Abertos Governamentais, como um dos pilares de uma política de Governo Aberto, constituem uma metodologia para a publicação de dados do governo em formatos reutilizáveis, visando o aumento da transparência e maior participação política por parte do cidadão, gerando novas possibilidades e serviços desenvolvidos colaborativamente pela sociedade.
+
+O movimento Open Data, como é conhecido em inglês, vem movimentando comunidades em todo o mundo para exigir informações públicas dos governos, dessa forma os cidadãos ganham poder para: melhor compreender as políticas públicas, melhor controlá-las e tomar proveito dessas informações para a criação de aplicações que melhorem seu padrão de vida.
+
+	No caso do brasileiro, vários órgãos da Administração Pública já têm a cultura de publicar seus dados na web, por meio de relatórios e balanços para que os cidadãos possam acompanhar os resultados das ações de governo. Todavia, em alguns casos, tais documentos são publicados em formato proprietário, dificultando seu uso, reúso e cruzamento com outros dados.
+
+Diante da realidade apresentada e da sanção da Lei de Acesso à Informação, o Ministério do Planejamento, Orçamento e Gestão, por meio da Secretaria de Logística e Tecnologia da Informação, publicou a Instrução Normativa nº 4, de 13 de abril de 2012. A IN define este Plano de Ação como o principal instrumento de implantação e gestão da Infraestrutura Nacional de Dados Abertos. 
+
+A Instrução Normativa responsabiliza a gestão da INDA ao seu comitê gestor, composto por integrantes de órgãos federais, representante da sociedade civil e outro do setor acadêmico. A Secretaria de Logística e Tecnologia da Informação (SLTI) representa o Ministério do Planejamento, Orçamento e Gestão (MPOG) no grupo, que também conta com participantes da Casa Civil da Presidência, Ministério da Saúde (MS), Controladoria Geral da União (CGU), Ministério da Educação (MEC), Instituto Brasileiro de Geografia e Estatística (IBGE). A presença da sociedade civil no Comitê Gestor demonstra o compromisso assumido junto à Parceria para Governo Aberto de ampliação da participação social nas decisões de governo.
+
+Além de formular os objetivos, apontar responsabilidades e estabelecer diretrizes, a Instrução Normativa determinou a elaboração de um plano de ação para implantação da INDA e submetê-lo ao Ministério do Planejamento, Orçamento e Gestão (MP). No inciso VII do seu Artigo 6o, a Instrução Normativa apresentou uma lista mínima de itens a serem endereçados no referido plano. Esses itens são contemplados ao longo do documento.
+
+Antes mesmo da Instrução normativa da INDA, a estrutura já existia. Foi fruto do trabalho do Ministério do Planejamento e mais 30 instituições, iniciado durante o Workshop realizado em abril de 2011. Nele, estabeleceu-se o planejamento inicial da INDA, os principais produtos e metas, a sua estrutura inicial em 4 grupos de trabalho temáticos, os servidores públicos e cidadãos interessados participantes de cada grupo.
+
+O maior diferencial da INDA é o seu perfil de colaboração com a sociedade civil, colocando em prática um dos princípios basilares de Governo Aberto. Todas suas reuniões foram abertas à participação externa, algumas contando com transmissões pela internet, mantendo um canal de comunicação aberto para sugestões e críticas.
+
+Um grande exemplo de colaboração com a sociedade civil é o desenvolvimento colaborativo do Portal Brasileiro de Dados Abertos. O Portal, que foi lançado em Abril de 2012, vinha sendo desenvolvido em colaboração desde meados de 2011 e foi o primeiro exemplo no mundo de um portal de governo desenvolvido em conjunto com qualquer cidadão interessado.
+
+2. Conceitos
+2.1 Dados, informação e conhecimento
+
+Para melhor compreensão dos capítulos seguintes, este capítulo dedica-se à explanação de conceitos fundamentais como:
+
+Dado: sequência de símbolos ou valores, representados em algum meio, produzidos como resultado de um processo natural ou artificial. 
+Entende-se que dados são observações ou o resultado de uma medida (por investigação, cálculo ou pesquisa) de aspectos característicos da natureza, estado ou condição de algo de interesse, que são descritos através de representações formais e, ao serem apresentados de forma direta ou indireta à consciência, servem de base ou pressuposto no processo cognitivo (HOUAISS, 2001; SETZER, 2001;).
+
+Informação: conjunto de dados organizados de tal forma que tenham valor ou significado em algum contexto;
+A informação é gerada a partir de algum tratamento ou processamento dos dados por parte do seu usuário, envolvendo, além de procedimentos formais (tradução, formatação, fusão, exibição, etc.), processos cognitivos de cada indivíduo (MACHADO, 2002; SETZER, 2001).
+
+Dado público: qualquer dado gerado ou sob a guarda governamental que não tenha o seu acesso restrito por legislação específica;
+
+Formato aberto: formato de arquivo não proprietário, cuja especificação esteja documentada publicamente e seja de livre conhecimento e implementação, livre de patentes ou qualquer outra restrição legal quanto à sua utilização;
+
+Licença aberta: acordo de fornecimento de dados que conceda amplo acesso para que qualquer pessoa os utilize, os reutilize, e os redistribua, estando sujeito a, no máximo, a exigência de creditar a sua autoria e compartilhar pela mesma licença;
+
+Dados abertos: dados públicos representados em meio digital, estruturados em formato aberto, processáveis por máquina, referenciados na rede mundial de computadores e disponibilizados sob licença aberta que permita sua livre utilização, consumo ou cruzamento; e
+
+Metadado: informação que descreve características de determinado dado, explicando-o em certo contexto de uso.
+
+e-PING: Padrões de Interoperabilidade de Governo Eletrônico – define um conjunto mínimo de premissas, políticas e especificações técnicas que regulamentam a utilização da Tecnologia de Informação e Comunicação (TIC) na interoperabilidade de serviços de Governo Eletrônico, estabelecendo as condições de interação com os demais Poderes e esferas de governo e com a sociedade em geral.
+
+e-VoG: Vocabulários e Ontologias do Governo Eletrônico é um conjunto de padrões, ferramentas e metodologias para possibilitar: o intercâmbio de informações com acordo semântico, de forma a viabilizar o pronto cruzamento de dados de diversas fontes; o uso de metodologias de modelagem conceitual como forma de elicitação do conhecimento tácito das áreas de negócio de governo; o uso de ontologias como ferramenta para explicitar conhecimentos de maneira formal e coerente; o alinhamento conceitual das diversas áreas do conhecimento do governo.
+
+Um dos produtos do e-VoG é o Repositório de Vocabulários e Ontologias de Governo Eletrônico, local para acesso a todas as referências ontológicas do Governo Eletrônico Federal.
+
+2.2 Dados Governamentais Abertos
+
+Dados governamentais abertos (DGA)  pode ser entendido como a “disponibilização, através da Internet, de informações e dados governamentais de domínio público para a livre utilização pela sociedade” (AGUNE, GREGORIO FILHO, BOLLIGER, 2010). Esta definição já é um consenso entre  autores como Agune, Gregorio Filho, Bolliger (2010) e Diniz (2010), que defendem a ideia de que dados públicos  pertencem ao cidadão e que por consequência, devem ter acesso irrestrito às informações governamentais. 
+
+O World Wide Web Consortium (W3C), consórcio internacional criado para desenvolver colaborativamente padrões universais para a Web, define dados governamentais abertos como: “a publicação e disseminação das informações do setor público na web, compartilhados em formato bruto e aberto, compreensíveis logicamente, de modo a permitir sua reutilização em aplicações digitais desenvolvidas pela sociedade”.
+
+De acordo com Vaz (2010), dados governamentais abertos deverão possuir as seguintes características: 
+ser independente de plataformas tecnológicas;
+basear-se em formatos padronizados. A garantia de evolução e contínua melhoria da representação dos dados está nas tecnologias sustentadas por organismos internacionais de padrões como W3C World Wide Web Consortium e ISO International Standardization Organization;
+os dados devem estar desvinculados das ferramentas, relatórios ou páginas web que os originaram;
+o formato utilizado para representação dos dados deve preferencialmente permitir a manipulação destes por máquinas, no entanto, os dados deverão estar estruturados. Uma boa estruturação permite que terceiros possam fazer uso automatizado dos dados. Formatos que somente podem ser vistos, e não extraídos, não são úteis nesse contexto e devem ser evitados;
+cada conjunto de dados deverá possuir uma “descrição externa de si próprio (metadados) de tal forma que seja identificada a sua natureza, conheça-se a sua origem e qualidade e seja possível uma análise dos dados através de um conjunto de instruções legíveis por máquina que descreve os dados e suas relações.”
+sempre que possível, utilizar URIs (Identificador Uniforme de Recursos) para cada objeto dos seus dados (por exemplo, equipamentos públicos, autoridades, órgãos). 
+
+Além disso, o W3C entende que os governos devem incentivar os cidadãos a usarem os dados abertos disponíveis pelos governos, ou seja, eles devem ser estimulados a reutilizarem os dados conforme as suas necessidades e vontades. Diniz (2010) resume o objetivo desse incentivo: “Não há valor na disponibilização de dados governamentais abertos se a sociedade não tem interesse em reutilizá-los”.
+
+
+3. Contextualização
+3.1. O marco legal da INDA
+A publicação de dados abertos pela Administração Pública Federal é um dever, pelo princípio da publicidade (art. 37 da Constituição Federal de 1988), bem como direito do cidadão em receber informações públicas, previsto no inciso XXXIII da Constituição. Contudo, a falta de regulamentação, até a entrada em vigor da Lei 12.527, de 18 de novembro de 2011, a Lei de Acesso à Informação (LAI), significa que até então poucos órgãos e entidades publicavam essas informações.
+
+Com o advento da LAI, a administração passou a ter a obrigação de não apenas publicá-las na internet, mas também em formatos abertos e processáveis por máquina, ou seja, seguindo o preceito dos dados abertos.
+
+Para detalhar essa determinação legal e estabelecer uma infraestrutura que suporte as ações da administração púiblica nesse sentido, a Instrução Normativa SLTI n° 4, de 12 de abril de 2012, instituiu a INDA como política para garantir e facilitar o acesso pelos cidadãos, pela sociedade e, em especial, pelas diversas instâncias do setor público aos dados e informações produzidas ou custodiadas pelo Poder Executivo federal. 
+
+A Instrução Normativa, ainda, determina a elaboração deste Plano de Ação.
+
+3.2. Convergência de iniciativas
+
+A SLTI, como órgão central do SISP, vem desenvolvendo iniciativas para promover a interoperabilidade e a publicação de dados públicos na web nos moldes “abertos”. Para tanto, foram estabelecidas iniciativas estratégicas na Estratégia Geral de Tecnologia da Informação (EGTI), e formado um subgrupo no âmbito dos Padrões de Interoperabilidade de Governo Eletrônico (e-PING). Ambos esses alinhamentos são descritos a seguir.
+
+A EGTI é um documento estratégico bienal que visa direcionar o planejamento em tecnologia da informação para os órgãos e entidades integrantes do SISP, apresentando elementos para a elaboração de Plano Diretor de Tecnologia da Informação (PDTI) e justificativas para investimentos na área. A estratégia para os anos 2011-2012 incluiu a Meta 39, relacionada a dados abertos: “Implementar a Infraestrutura Nacional de Dados Abertos (INDA)”.
+
+A e-PING, por sua vez, revisada em 2010, adotou padrões para publicação nos formatos previstos para dados abertos para facilitar a disponibilização das bases de dados das instituições interessadas. Os dados abertos como meio de promoção da interoperabilidade entre instâncias de governo estão inseridos no contexto de um dos grupos de trabalho da e-PING - o subgrupo de trabalho da INDA dentro do GT 5 - Áreas de Integração para Governo Eletrônico.
+
+Além da EGTI e da e-PING, foram identificadas outras políticas com as quais a INDA pode interagir, obter e oferecer valor: 
+Estratégia Nacional de Defesa Cibernética do Gabinete de Segurança Institucional da Presidência da República; 
+Estratégia Nacional de TICs (ENTICs) da Agência Brasileira de Desenvolvimento Industrial (ABDI); 
+Agenda Nacional de Gestão Pública da Secretaria de Assuntos Estratégicos da Presidência; 
+Agenda Nacional de Desenvolvimento do Conselho de Desenvolvimento, Econômico e Social; 
+Estratégia Nacional de Ciência e Tecnologia do Ministério da Ciência e Tecnologia; 
+Plano Nacional de Banda Larga conduzido pela Telebrás e o Programa Brasileiro de Redes Elétricas Inteligentes (PBRI) devido ao Plano Nacional de GRID que está sendo coordenado pelo  Centro de Pesquisa e Desenvolvimento em Telecomunicações (CpqD).
+
+
+4. Visão e objetivos
+
+A visão que a INDA pretende atingir com esse plano é ser uma infraestrutura que “proporcione a busca, o acesso, o reuso e o cruzamento dos dados públicos de diferentes fontes e assuntos de maneira simples e eficiente.”
+
+Foram definidos para a INDA e, por consequente, para este Plano de Ação, os seguintes objetivos:
+
+definir e estruturar a política que estabelece o modelo de dados abertos;
+promover o ordenamento na geração, no armazenamento, no acesso, no compartilhamento e disciplinar os aspectos técnicos referentes à disseminação de dados para uso do governo e da sociedade;
+promover o compartilhamento de recursos de tecnologia da informação e evitar a duplicidade de ações e o desperdício de recursos na disseminação de dados e informações;
+fornecer suporte, apoiar e capacitar na publicação de dados abertos junto aos órgãos e entidades que não possuem a prática, a cultura e atribuições finalísticas de disseminação de dados;
+buscar a melhoria contínua da publicação de dados abertos baseando-se nas melhores práticas concebidas nos cenários nacional e internacional;
+promover a colaboração entre governos e do governo com a sociedade através da publicação e reuso de dados abertos; e
+definir os mecanismos e procedimentos de disponibilização dos dados públicos.
+
+5. Princípios e diretrizes
+
+A disponibilização de dados abertos pela administração pública deverá ser norteada pelos princípios e diretrizes a seguir, incorporados dos princípios da transparência pública do Reino Unido
+(http://data.gov.uk/blog/new-public-sector-transparency-board-and-public-data-transparency-principles).
+
+I. A política de dados abertos será impulsionada pela Sociedade Civil e pelos interessados em utilizar os dados
+Isto inclui quais dados, como, quando e de que forma serão disponibilizados. Este princípio primordial deve aplicar-se a implementação de todos os outros princípios.
+
+II. Os dados públicos serão publicados de forma reutilizável e legível por máquina 
+A publicação por si só, é apenas parte de transparência - o dado precisa ser reutilizável, e para torná-lo reutilizável ele precisa ser legível por máquina. Atualmente, muita informação do governo está disponível em PDFs ou outros formatos não-legíveis por máquina.
+
+III. Os dados públicos devem ser publicados sob licença livre que permita a livre reutilização, incluindo a reutilização comercial
+ Todos os dados devem estar sob a mesma licença não restritiva, aberta, compatível com a legislação brasileira e aderente às demais iniciativas dos países membros da OGP.
+
+IV. Os dados públicos estarão disponíveis e fáceis de encontrar através de um único e fácil  ponto de acesso on-line (dados.gov.br)
+O setor público possui milhares de sites, e as ferramentas de busca nem sempre funcionam adequadamente entre eles. É importante ter um ponto bem conhecido e único em que as pessoas possam encontrar os dados.
+
+V. Os dados públicos devem ser publicados com rapidez e precisão
+Os dados serão liberados e detalhados  o mais rapidamente possível. Quanto mais rápido os dados forem liberados, maior será o seu valor.
+
+VI. Publicar dados rapidamente, e então republicá-lo como linked data
+Os padrões associados ao conceito linked data (HEATH e BIZER, 2011) permitem potencializar facilmente o reúso e o cruzamento dos dados de várias fontes. No entanto, a maioria dos dados internos do setor público não estão prontamente publicáveis como linked data, sendo para isso necessárias etapas de modelagem e de mapeamento dos dados. Ao invés de atrasar qualquer divulgação dos dados, nossa recomendação é para liberá-lo "como está" o mais rapidamente possível, em formatos abertos e estruturados, e depois trabalhar para modelar e mapear os dados conforme as melhores práticas para linked data.
+
+VII. Os dados públicos estarão disponíveis gratuitamente para uso em qualquer forma legal
+Os dados brutos, provenientes da transparência ativa, devem estar disponíveis sem necessidade do consumidor dos dados se registrar ou se identificar. Os aplicativos devem ser capazes de usar os dados de qualquer forma legal sem ter que informar ou obter a autorização do órgão público em questão.
+
+VIII. Os Órgãos públicos devem incentivar ativamente o reúso de seus dados públicos
+Além de publicar os dados em si, os órgãos públicos deverão prestar informações e apoio para que os dados possam ser reutilizados de forma fácil. O Governo deve também encorajar e apoiar aqueles que utilizam dados públicos para compartilhar conhecimentos e aplicativos, bem como também trabalhar com o mercado a fim de incentivar o uso inovador dos  dados e para gerar benefícios econômicos.
+
+6. Estruturas da INDA
+
+6.1. Estruturas Física e Lógica da INDA
+
+Considerando que os Dados Abertos são a premissa para facilitar a interoperabilidade de qualquer sistema que desejar utilizá-los, é importante ressaltar que na INDA são utilizados os padrões definidos pela e-PING, programa primordial de interoperabilidade do Governo Federal. Também são utilizados na INDA os vocabulários e ontologias definidos no contexto do e-VoG, que é a parte da e-PING que trata da interoperabilidade semântica.
+
+Ao contrário de demais infraestruturas nacionais ou internacionais (como a Infraestrutura Nacional de Dados Espaciais, por exemplo) a INDA não deve ser entendia como um sistema distribuído no sentido de um software com componentes interdependentes, distribuídos em rede. Ao invés disso, procuramos defini-la como uma infraestrutura de dados distribuída por todos os seus participantes, com pouco ou nenhum acoplamento entre seus nós. 
+
+A infraestrutura física de sustentação dos dados a serem disponibilizados para o público na web, compete a cada participante, no que couber aos dados sobre os quais é responsável. Há, entretanto, a possibilidade de apoio técnico pelo Repositório Federado de Dados (RFD). O RFD é uma iniciativa do Ministério do Planejamento que pretende prover uma plataforma para hospedagem, disponibilização e integração de dados públicos e pode portanto ser utilizado como hospedeiro para instituições que não possuam infraestrutura capaz de manter seus dados disponíveis na web.
+
+Não pretendemos nos aprofundar nas questões de hardware pois, consideramos que a infraestrutura não impõe restrições a esses componentes, bastando apenas haver a possibilidade do hardware permitir a interação com outros dispositivos através da internet.
+
+
+Diagrama de implantação da INDA 
+
+
+A entrada na INDA, tanto pelos consumidores quanto pelos publicadores, será feita pelo Portal Brasileiro de Dados Abertos (http://dados.gov.br). O portal é um catálogo central que mantém um conjunto de metadados sobre as informações disponibilizadas pelas organizações da INDA. Informações como nome do dado, URL (ou endereço web) do dado, autor do dado, responsável pela manutenção do dado, formato do dado (odt, csv, json, xml etc) são catalogadas para garantir que o usuário encontre o que está procurando.
+
+Atualmente, para disponibilização dos dados no catálogo, o fornecedor de dados (organização pública) publica seus dados na web através de portal próprio (por exemplo: http://api.dataprev.gov.br/previdencia/anuario/2009/acidentes-do-trabalho.csv), cadastra seus metadados no portal (endereço, nome, data da coleta, assunto etc) e garante a disponibilidade desses dados em seu ambiente próprio. 
+
+A grosso modo, isso significa que os dados já estão na INDA, no entanto, seus grupos de trabalho estão lançando documentos com boas práticas para que os dados disponibilizados sejam mais úteis, reutilizáveis e fáceis de encontrar. Um importante ponto de entrada para essa documentação é a Cartilha Técnica para Publicação de Dados Abertos, disponível no portal: http://dados.gov.br/cartilha-publicacao-dados-abertos/.
+
+A estrutura lógica da INDA segue os padrões orientados pelas RFC 2616 e 1630 da Internet Engineering Task Force (http://www.ietf.org/rfc/rfc2616 e http://www.ietf.org/rfc/rfc1630, respectivamente), que tratam sobre o protocolo HTTP (e de que forma seus métodos devem ser utilizados) e de formação de Identificadores Universais de Recurso (URI, ou Universal Resource Identifiers, em inglês). O Grupo de Trabalho de tecnologia da INDA não recomenda qualquer forma de tunelamento de protocolos para a publicação de Dados Abertos.
+
+Portanto, esclarecemos que para a participação ou disponibilização de dados na INDA utiliza somente aqueles protocolos que já são utilizados na web, com uma ressalva de que, para facilitar a organização e pesquisa das informações disponibilizadas, devem ser seguidas boas práticas para endereçamento dessas informações na web.
+
+Como infraestrutura lógica, a INDA baseia-se em padrões abertos para formatos de arquivo e estrutura de dados definidos na e-PING. No que se refere à estruturação semântica, a INDA usa e propõe o uso de padrões de vocabulários e ontologias constantes no e-VoG.
+
+6.2 Estrutura organizacional da INDA
+
+	Considerando os elementos acima demonstrados, as responsabilidades pelas iniciativas  apresentadas no capítulo 9 serão desenvolvidas e acompanhadas pelos grupos que compõem a estrutura organizacional da infraestrutura nacional de dados abertos, cada um com escopo de atuação e as seguintes atribuições:
+
+GT 1 – Gestão e Normativo
+  Coletar e documentar normativos relativos ao tema dados abertos;
+  Desenvolver 	políticas, diretrizes e processos que regulem a disseminação e a sustentabilidade das ações para publicação de Dados Abertos;
+  Propor a evolução das normas que sustentam a INDA.
+
+GT 2 – Informações disseminadas e boas práticas de publicação
+  Avaliar periodicamente o processo de publicação de dados e informações da Administração Pública na Internet;
+  Verificar aderência aos padrões e boas práticas de disseminação na Internet;
+  Tratar de questões de privacidade, “anonimicidade” / individualização de dados;
+  Buscar, disseminar e verificar a utilização de melhores práticas relacionadas ao assunto.
+
+GT 3 – Tecnologia
+  Descrever os meios para buscar, consultar, encontrar acessar e utilizar dados abertos;
+  Promover a utilização de novos padrões e incluí-los na  arquitetura de interoperabilidade de governo eletrônico (e-PING);
+  Buscar ferramentas úteis no desenvolvimento colaborativo da INDA e propor sua implantação pelo comitê operacional;
+  Prospectar novas tecnologias para facilitar a publicação e o reúso de dados abertos.
+
+GT 4 – Metadados e padrões
+  Estabelecer os padrões técnicos necessários ao funcionamento da INDA e propô-los à e-PING.
+  Documentar melhores práticas de modelagem e metadados;
+  Estabelecer diretrizes para a confecção de URIs no contexto de Linked Data;
+  Prospectar e documentar ontologias e/ou vocabulários existentes a serem referenciados quando da modelagem de novas ontologias e/ou vocabulários para dados abertos e propô-los ao e-VoG.
+  Pesquisar e recomendar ferramentas para modelagem de ontologias e publicação de Dados Abertos Ligados (Linked Open Data);
+
+Comitê Gestor da INDA
+Responsável pela gestão da Infraestrutura. Cabe a esse fórum:
+Gerir o desenvolvimento do plano de ação da INDA, sua execução e suas atualizações;
+Garantir o desenvolvimento coordenado dos produtos da Infraestrutura;
+Garantir a qualidade dos produtos desenvolvidos;
+Assegurar o desenvolvimento dos produtos no prazo planejado;
+Articular as ações para integrar as iniciativas existentes; 
+Priorizar e recomendar aos órgãos e entidades quanto à abertura dos dados e informações, nos termos estabelecidos pela e-PING, instituída pela Portaria Normativa da SLTI nº 5, de 14 de julho de 2005;
+Definir o modelo de licença para os dados abertos;
+Criar, alterar ou extinguir grupos de trabalho no âmbito da INDA;
+Estabelecer diretrizes para o desenvolvimento, implantação, manutenção e gestão da evolução do Portal Brasileiro de Dados Abertos;
+Articular ações com a sociedade civil, visando a aderência e a participação social junto às ações da INDA.
+Realizar a articulação institucional, buscando trocar experiências com organizações de dentro e de fora da INDA, do SISP, da esfera Federal e do Poder Executivo.
+Promover a articulação internacional, visando a troca de experiências com outros países.
+
+Comitê Operacional
+	A este comitê compete gerir e executar os processos administrativos da INDA, como:
+Adesões à INDA e cadastro nos grupos de trabalho;
+Suporte ao desenvolvimento dos produtos da INDA;
+Processo de mudança de produtos;
+Suporte na comunicação entre os grupos de trabalho;
+Organização de eventos da INDA;
+
+ 
+Organograma da INDA
+7. Catalogação no Portal Brasileiro de Dados Abertos
+
+Conforme o capítulo 6, o dados.gov.br é um grande catálogo de dados, portanto depende de registro dos dados disponíveis pelos órgãos competentes. Os dados do catálogo serão classificados e agrupados conforme os temas (assuntos) constantes no Vocabulário Controlado de Governo Eletrônico (VCGE1).
+
+A catalogação no Portal Brasileiro de Dados Abertos dos dados das organizações participantes fica a cargo das próprias instituições responsáveis pelos dados, que designarão pessoa a ser autorizada no portal a cadastrar e manter os metadados. Essa pessoa procederá, dali em diante, ao registro da localização (links) dos dados abertos já disponibilizados, juntamente com os seus respectivos metadados.
+
+	O Portal Brasileiro de Dados Abertos agrupa e conecta os dados de muitas formas (assuntos, grupos, formatos etc). Por essa razão, é muito importante a catalogação de maneira mais completa (com o maior número de metadados) e acurada possível, para aumentar as formas pelas quais o cidadão pode chegar à informação procurada.
+
+As regras e orientações sobre como deverão ser catalogados os metadados no portal encontram-se no Manual de Catalogação no dados.gov.br. O manual está disponível no endereço: http://dados.gov.br/manual-catalogacao-dadosgovbr.
+
+
+8. Plano Institucional de abertura de dados
+
+Em resposta à necessidade de planejamento institucional para as ações de publicação de Dados Abertos da Administração Pública do Brasil, em cumprimento ao disposto na LAI, e ao disposto no art. 6º, inciso VII, alínea c, da Instrução Normativa SLTI nº 4, de 12 de abril de 2012, o Comitê Gestor da INDA elaborou um conjunto de orientações a serem seguidas pelos membros da infraestrutura.
+
+Trata-se de um modelo de plano institucional de abertura de dados, cujo objetivo é adequar os dados disponibilizados pelas organizações a um padrão mínimo de qualidade, necessário para facilitar o entendimento e simplificar a reutilização dos dados sob guarda das organizações.
+
+O plano visa programar as ações futuras da organização em relação à abertura de seus dados públicos. Terá periodicidade bienal e deve ser apresentado ao Comitê Gestor da INDA para conhecimento, acompanhamento e priorização. Além disso, será publicado no Portal Brasileiro de Dados Abertos e no sítio institucional da organização, de forma a dar amplo conhecimento ao cidadão.
+
+8.1. Construindo um plano de adequação para abertura de dados
+
+Esta seção visa orientar as instituições membros da INDA sobre como proceder na elaboração de seu Plano Institucional de Abertura de Dados. O Plano deve possuir, no mínimo, os seguintes elementos:
+
+I. Alinhamento com planejamento estratégico da instituição (PE)
+Para garantirmos a institucionalidade do Plano, é importante que ele seja considerado na realização do Planejamento Estratégico, demonstrando interesse e atenção da diretoria ou presidência da organização. Por outro lado, é importante também que, observadas as iniciativas estratégicas organizacionais, elas sejam lembradas durante a implementação das ações de abertura.
+
+A inclusão de aspectos do Plano de abertura no PE é importante para garantir que as diversas áreas da organização estejam alinhadas com o compromisso da publicação de dados abertos. Esse compromisso envolve interlocutores de diversas áreas da instituição, tais como:
+a. Negócios e domínios de informação
+b. Tecnologia, abrangendo os sistemas estatísticos, de relatórios e de indicadores 
+c. Comunicação, principalmente no tocante ao portal institucional
+
+O plano precisa prever os canais de comunicação, as formas de interação com a sociedade, os interlocutores desses canais e suas resposabilidades.
+
+
+II. Alinhamento com Plano Diretor de Tecnologia da Informação (PDTI)
+Considerando que as ações de abertura necessitam diretamente de apoio da Tecnologia da Informação do órgão, é necessário assegurar a compatibilidade das novas necessidades de transparência e abertura às de suas estratégias de TI. O Plano precisa explicar de forma isso está sendo feito.
+
+Uma das coisas que devem ser consideradas é de que forma o plano contempla a abertura de dados dos sistemas que vierem a ser desenvolvidos com base nas necessidades institucionais levantadas durante a elaboração do PDTI. 
+
+O PDTI, por sua vez, precisa prever os insumos tecnológicos necessários para a abertura de dados, inclusive no que se refere à aquisição das competências necessárias.
+
+III. Levantamento do portfólio dos dados
+O primeiro passo em direção à maior transparência da organização é o inventariamento dos dados sob sua guarda. Os dados devem ser inventariados para a divulgação, sem prejuízo dos já referidos pela LAI. Tanto os que já estão disponíveis na internet quanto os que ainda não estão (se tratando, obviamente de dados públicos).
+
+Os que já estão publicados devem ser catalogados no Portal Brasileiro de Dados Abertos, podendo opcionalmente a instituição participante da INDA ter, também, um catálogo próprio de dados abertos. Nesse caso, a construção do catálogo também deverá ser prevista no plano com cronograma.
+
+Da mesma forma, os dados ainda não publicados devem, no momento de sua publicação na internet, terem os seus metadados cadastrados no Portal.
+
+Em todos os casos, o plano deve estabelecer os metadados a serem coletados a respeito de cada conjunto de dados, contendo, no mínimo:
+
+a. Nome ou título do conjunto de dados;
+b. Descrição sucinta;
+c. Palavras-chave (etiquetas);
+d. Assuntos relacionados do VCGE;
+e. Nome e e-mail do setor responsável pelos dados;
+f. Periodicidade de atualização;
+g. Escopo temporal (anual, mensal, diário, bimestral etc. exemplo: dados referentes ao censo de 2011, dados de um indicador mensal);
+h. Escopo geo-político (por cidade, por estado, por região);
+
+
+IV. Metas de publicação e melhoria da qualidade dos já publicados
+A organização deverá estabelecer metas para publicação dos dados inventariados que ainda não estiverem disponíveis. Tanto para esses quanto para os que já estão disponíveis, deverá estabelecer metas de qualidade (A INDA proverá modelo de maturidade de dados abertos, sua entrega está prevista no capítulo 9 - Iniciativas). As metas deverão seguir os seguintes critérios:
+
+a. Os dados disponibilizados deverão conter a possibilidade de ser acessados diretamente, através de URL única, ou seja, passível de ser reproduzida e compartilhada , sem necessidade de navegação na página para seu acesso (exemplo: http://repositorio.dados.gov.br/governo-politica/administracao-publica/pac/pac_REG_2012_04.csv)
+b. Tabelas mantidas em arquivos PDF (relatórios, por exemplo), deverão estar contidas também em arquivos próprios para sua estruturação (como csv e odt), e ser referenciadas por esses relatórios
+c. Os dados disponibilizados deverão ser feitos em formatos abertos, conforme formatos recomendados pela e-Ping
+
+V. Plano para abertura de diálogo com os consumidores dos dados, incluindo a sociedade civil
+O plano deverá apresentar formas pelas quais a organização se compromete a publicizar seus atos de abertura de dados. Além disso, deverá apresentar cronograma de reuniões com representantes da sociedade civil participantes da INDA, ou indicados pelo representande da sociedade civil do comitê gestor.
+
+VI. Plano técnico de sustentabilidade. 
+Somando-se às metas para a abertura dos dados e adequação aos padrões da INDA, a organização deve planejar de que forma irá manter-se aberta. Para isso o plano deve prever formas para garantia da disponibilidade dos dados abertos e incorporação do processo de abertura dentro de seus processos de negócio.
+
+Essas garantias devem ser previstas também no Planejamento Estratégico, sempre que possível, prevendo não só a sustentabilidade mas a melhoria contínua dos dados publicados, de acordo com o definido no item V.
+
+
+
+9. Iniciativas
+Este Plano de Ação é composto pelo seguinte conjunto de iniciativas:
+
+I. Plano de Capacitação da INDA - Articular com a Escola Nacional de Administração Pública e com a Rede Nacional de Escolas de Governo, em conjunto com o W3C Brasil, curso de formação piloto contendo base conceitual de transparência, colaboração e participação, bem como metodologias, técnicas e tecnologias para a publicação de dados abertos. Elaborar e implementar plano de capacitação em engenharia de ontologias e web semântica, dentro da rede. Planejar implantação dos cursos elaborados na rede e cronogramas de capacitação. O Plano de capacitação da INDA será publicado na página dos grupos de trabalho de desenvolvimento da INDA.
+Responsável: GT4
+
+II. Estruturar uma Rede de Capacitação em publicação de dados abertos - Articular com a Escola Nacional de Administração Pública, Rede Nacional de Escolas de Governo, W3C Brasil e universidades federais, uma rede de troca de conhecimento, experiências documentos sobre a publicação de Dados Abertos no Brasil e no Mundo.
+Responsável: GT4
+
+II. Ações de disseminação - Delineamento e implementação de linha temática sobre dados abertos em plano de comunicação do Programa Governo Eletrônico.
+Responsável: GT1
+
+III. Portal Brasileiro de Dados Abertos - Evolução do dados.gov.br, de maneira a simplificar a pesquisa e o acesso a dados públicos, melhorar as funcionalidades existentes, permitir melhor interação com o público.
+Responsável: GT3
+
+IV. Avaliar as licenças existentes para Dados Abertos sob o ordenamento jurídico brasileiro; recomendar uma licença nova, existente ou adaptada - Linha de Base: Licenças existentes (PDDL, OdbL, DBCL, Open Government Licence, Creative Commons, Licença Pública de Marca e outras) e modelos adotados em outros países.
+Responsável: GT4
+
+V. Modelo de Maturidade de Dados Abertos - Documento que pretende orientar as instituições detentoras de dados públicos  no processo de referenciar seus dados publicados e classificar essas instituições de acordo com o nível da qualidade de publicação dos seus dados
+Responsável: GT4
+
+VI. II Encontro Nacional de Dados Abertos - Organizar evento que promova a troca de experiências sobre Dados Abertos entre publicadores e consumidores, agentes de governo e usuários da sociedade.
+Responsável: GT1
+
+VII. Diretrizes de Projeto de URIS para o setor público brasileiro - Publicar documento que estabeleça boas práticas e diretrizes para arquitetura de URIs pelas organizações que publicam dados da Administração Pública Federal.
+Responsável: GT4
+
+VIII. Promover concursos de desenvolvimento de aplicações sobre Dados Abertos - Planejar e implementar, juntamente ao W3C Brasil, concursos de idéias e de serviços e aplicações que trariam inovação e melhoria do padrão de vida para a sociedade.
+Responsável: GTs 1 e 3
+10. Monitoramento e Controle
+
+Com a finalidade de que as iniciativas deste plano sejam desenvolvidas, será criado um núcleo executivo de medição da INDA. Esse terá a missão de definir indicadores para cada projeto e apresentar os resultados para o Comitê Gestor.
+
+Uma das medidas de monitoramento será a verificação da disponibilidade dos dados registrados no catálogo, o núcleo executivo definirá, em conjunto com o GT3, formas para realizar esse monitoramento.
+
+Outra medida a ser implementada será a avaliação da maturidade dos dados disponibilizados no catálogo. Uma das iniciativas deste ciclo da INDA será o desenvolvimento do modelo de maturidade dos dados abertos, entregue o modelo, as organizações incorporarão metas para a evolução da maturidade dos dados em seus próximos planos de abertura.
+
+Referências
+
+HOUAISS, A. Dicionário eletrônico Houaiss da língua portuguesa. Versão 1.0. [s. l.]: Objetiva, 2001. 
+
+SETZER, V. W. Dado, informação, conhecimento e competência.  Datagrama,  São Paulo v. 10, 2001. Disponível em: <http://www.ime.usp.br/~vwsetzer>. Acesso em: 12 jun. 2004. Coleção Ensaios Transversais. 
+
+AGUNE, R. M.; GREGORIO FILHO, A. S.; BOLLIGER, S. P Governo aberto SP: disponibilização de. bases de dados e informações em formato aberto. In: CONGRESSO CONSAD DE GESTÃO PÚBLICA, III, Brasília, 2010.
+
+VAZ, J. C. Administração pública e governança eletrônica: possibilidades para a tecnologia da informação. In: Governo eletrônico - os desafios da participação cidadã. Fortaleza: Fundação Konrad Adenauer, Série Debates n. 24, dez. 2002.
+
+MACHADO, F. B. Limitações e deficiências no uso da informação para tomada de decisões. Caderno de pesquisas em administração, São Paulo, v. 9, n. 2, 2002.  
+
+AKUTSU, L. Portais de governo no Brasil: accountability e democracia delegativa. In: CONGRESO INTERNACIONAL DEL CLAD SOBRE LA REFORMA DEL ESTADO Y DE LA ADMINISTRACIÓN PÚBLICA,
+
+DEMOCRACIA DIRECTA EN AMÉRICA LATINA, 14-15 de marzo de 2007, Buenos Aires, Argentina. Disponível em: www.dd-la.ch/download/Welp_Yanina.pdf . Acesso em: 18. set. 2009.
+
+WORLD WIDE WEB CONSORTIUM. W3C. Disponível em: http://www.w3c.br/divulgacao/. Acesso em: 8 jul. 2010.
